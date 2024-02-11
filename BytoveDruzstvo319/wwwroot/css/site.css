@@ -1,0 +1,186 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  font-family:Roboto;
+}
+#NavBar{
+    background-image:linear-gradient(90deg, #e8c28fab, #ff9200ab);
+    /*box-shadow:#00000085 0px 5px 10px;*/
+    border:1px solid grey;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5Px;
+}
+#wrapper{
+    background-color:#e6cfb0ab
+}
+#pictureHolder img{
+    box-shadow:#000000cb 0 5px 10px;
+}
+#TextContainer {
+    background-image: url(/content/TextContainer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 23vh;
+    background-color: #e4a6548d;
+    border: 1px solid grey;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5Px;
+}
+.OneMember {
+    min-width: 90vw !important;
+    max-width: 90vw !important;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #f0d4ad 0%, #f0d4ad 89%, #ffffff 90%, #ffffff 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: black 0px 2px 10px;
+    border: 1px solid #6d6d6d;
+    color: #000000
+}
+.OneMember:hover{
+    transform:scale(1.1);
+    filter:brightness(1.1);
+    transition-duration:1s;
+}
+#MemberHolder {
+    background-color: #ffdcbfaa
+}
+#line{
+    width:100%;
+    background-color:#ff9200ab;
+    height:2px;
+}
+#ContactInformation{
+    background-color:#e6cfb0ab;
+    padding:10px;
+}
+
+#ContactsHolder{
+    background-color:#ffefdf;
+    padding:5px;
+    border-radius:5Px;
+    border:1px solid wheat;
+    box-shadow:#ff920066 0px  5px 10px;
+
+}
+.OneContact{
+    font-size:15px;
+    justify-self:center;
+    text-align:center;
+}
+#menuButton{
+    text-decoration:none;
+    color:#784502ff;
+    background-color:#ffe7c1ff;
+    padding:5px;
+    border-radius:5px;
+    box-shadow:grey 0px 2px 5px;
+}
+
+@media (min-width: 768px) {
+    #TextContainer div h5{
+        font-size:30px !important
+    }
+    #menuButton{
+        font-size:25px !important;
+    }
+    #ContactInformation p{
+        font-size:25px !important;
+    }
+    #ContactInformation a {
+        font-size: 25px !important;
+    }
+}
+@media (min-width: 992px) {
+    #menuHolder{
+        justify-content:space-around !important;
+        flex-direction:column !important;
+        border:1px solid grey;
+        border-radius:5px;
+        }
+    header{
+        display:flex;
+        flex-direction:row;
+    }
+    #menuButton{
+        font-size:20px !important;
+        
+    }
+    #TextContainer{
+        background-size:contain;
+       min-height:30vh !important;
+       padding:0 !important;
+
+    }
+    #TextContainer div{
+        width:17vw;
+        max-width:17vw;
+        padding:5px;
+        word-break:break-word;
+    }
+    #TextContainer div h5{
+        font-size:20Px !important;
+    }
+    #wrapper{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+    }
+   #MemberHolder{
+       max-width:45vw !important;
+       width:50vw !important;
+   }
+   .OneMember{
+       width:50vw !important;
+    max-width:50vw !important;
+    min-width:50vw !important;
+   }
+    #pictureHolder{
+        max-width:40vw;
+    }
+    #pictureHolder img{
+
+    }
+    #line{
+        display:none;
+    }
+    #ContactInformation{
+        width:45vw;
+       justify-self:center;
+       margin:2vw;
+    }
+    #Stanova {
+        width: 45vw;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        margin:2vw;
+        background-color:#e6cfb0ab;
+    }
+    .OneMember {
+        width:40vw !important;
+        max-width:40vw !important;
+        min-width:40vw !important;
+        background: linear-gradient(90deg, #f0d4ad 0%, #f0d4ad 80%, #ffffff 80%, #ffffff 100%);
+      
+    }
+}

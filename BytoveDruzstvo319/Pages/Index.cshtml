@@ -1,0 +1,102 @@
+﻿@page "/"
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+
+<section class="container-fluid w-100 d-flex flex-column align-items-center p-4" id="pictureHolder">
+    <img class="img-fluid m-2" style="border-radius:10px; object-fit:cover " src="content/image001.png" />
+    <img class="img-fluid m-2" style="border-radius:10px; object-fit:cover" src="content/image002.png" />
+</section>
+<div id="line"></div>
+<section id="MemberHolder" class="w-100 d-flex flex-column align-items-start p-3">
+    <h2 style="align-self:center;">Představenstvo</h2>
+    <div id="line" class="w-75 align-self-center m-2"></div>
+    <div class="OneMember d-flex flex-row align-items-center justify-content-between">
+        <div>
+            <h3><b>Předseda představenstva</b></h3>
+            <p class="text-decoration-underline"><b> Karel Král </b></p>
+        </div>
+        <div class="">
+            <img style="max-width:5vw;" src="content/ChairMan.png" />
+        </div>
+    </div>
+    <div class="OneMember d-flex flex-row align-items-center justify-content-between">
+        <div>
+            <H5><b> Místopředseda představenstva</b></H5>
+            <p><b> Libuše Černá </b></p>
+        </div>
+        <div class="">
+            <img style="max-width:5vw;" src="content/Deputy chairman.jpg" />
+        </div>
+    </div>
+    <div class="OneMember d-flex flex-row align-items-center justify-content-between">
+        <div>
+
+            <H6> <b> Člen představentstva </b></H6>
+            <p class="text-decoration-underline"><b> Eva Nebesářová </b></p>
+        </div>
+        <div class="">
+            <img style="max-width:5vw;" src="content/user.png" />
+        </div>
+    </div>
+    <div class="OneMember d-flex flex-row align-items-center justify-content-between">
+        <div>
+
+            <H6> <b> Člen představenstva</b></H6>
+            <p class="text-decoration-underline"><b> Helena Schwarzingerová </b></p>
+        </div>
+        <div class="">
+            <img style="max-width:5vw;" src="content/user.png" />
+        </div>
+    </div>
+    <div class="OneMember d-flex flex-row align-items-center justify-content-between">
+        <div>
+
+            <H6> <b> Člen představenstva </b></H6>
+            <p class="text-decoration-underline"><b> Ing. Jiří Novotný </b> </p>
+        </div>
+        <div class="">
+            <img style="max-width:5vw;" src="content/user.png" />
+        </div>
+    </div>
+</section>
+<div id="line"></div>
+<section class="d-flex flex-column align-items-center" id="ContactInformation">
+    <h3>Kontaktní informace</h3>
+    <div id="line" class="w-75 m-2 align-self-center"></div>
+    <div id="ContactsHolder" class="w-100">
+        <div class="OneContact">
+            <p>Bytové Družstvo 319</p>
+        </div>
+        <div class="OneContact">
+            <p>ul. Brigádnická 2692-2695</p>
+        </div>
+        <div class="OneContact">
+            <p>434 01 Most</p>
+        </div>
+        <div class="OneContact">
+            <p>IC: 25041207</p>
+        </div>
+        <div class="OneContact">
+            <p>+420 721 840 814</p>
+        </div>
+        <div class="OneContact">
+            <p>bytovedruzstvo319@gmail.com</p>
+        </div>
+        <div class="OneContact">
+            <a href="www.bytovedruzstvo319.cz">www.bytovedruzstvo319.cz </a>
+        </div>
+    </div>
+</section>
+<div id="line"></div>
+<section id="Stanova" class="d-flex flex-column align-items-center">
+    <br/>
+    <h4>Stanovy bytového družstva</h4>
+    <div id="line" class="w-75"></div>
+    <div class="m-4 bg-light p-4" style="border-radius:5px" id="StanovaHolder">
+            <a href="~/content/stanovy.pdf">Zobrazit zde</a>
+    </div>
+</section>

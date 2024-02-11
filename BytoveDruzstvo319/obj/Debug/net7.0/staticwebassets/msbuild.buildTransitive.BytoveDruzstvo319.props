@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BytoveDruzstvo319.props" />
+</Project>

@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bytové Družstvo 319</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/BytoveDruzstvo319.styles.css" asp-append-version="true" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+    <header style="background-color: #e4a6548d;">
+        <div id="TextContainer" class="container-fluid w-100 text-center text-dark d-flex flex-row align-items-center justify-content-center">
+            <div style="max-width:50% !important;" class="">
+                <h5>Vítejte na stránkách Bytového Družstva 319</h5>
+            </div>
+        </div>
+        <div class="d-flex flex-row align-items-between justify-content-between p-2" id="menuHolder">
+            <a id="menuButton" href="#MemberHolder">Představenstvo</a>
+            <a id="menuButton" href="#ContactInformation">Kontaktní informace</a>
+            <a id="menuButton" href="#Stanova">Stanova</a>
+        </div>
+    </header>
+    <div id="wrapper" class="w-100 container-fluid p-0">
+        @RenderBody()
+    </div>
+
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - BytoveDruzstvo319 - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
