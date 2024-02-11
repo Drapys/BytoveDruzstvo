@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mdgam\\Desktop\\Coding\\Prof_coding\\BytovejWeb\\BytoveDruzstvo319\\BytoveDruzstvo319.csproj",
+      "projectUniqueName": "C:\\Users\\mdgam\\Desktop\\Coding\\Prof_coding\\BytovejWeb\\BytoveDruzstvo\\BytoveDruzstvo319\\BytoveDruzstvo319.csproj",
       "projectName": "BytoveDruzstvo319",
-      "projectPath": "C:\\Users\\mdgam\\Desktop\\Coding\\Prof_coding\\BytovejWeb\\BytoveDruzstvo319\\BytoveDruzstvo319.csproj",
+      "projectPath": "C:\\Users\\mdgam\\Desktop\\Coding\\Prof_coding\\BytovejWeb\\BytoveDruzstvo\\BytoveDruzstvo319\\BytoveDruzstvo319.csproj",
       "packagesPath": "C:\\Users\\mdgam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mdgam\\Desktop\\Coding\\Prof_coding\\BytovejWeb\\BytoveDruzstvo319\\obj\\",
+      "outputPath": "C:\\Users\\mdgam\\Desktop\\Coding\\Prof_coding\\BytovejWeb\\BytoveDruzstvo\\BytoveDruzstvo319\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
